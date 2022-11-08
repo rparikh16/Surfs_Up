@@ -15,4 +15,4 @@ The purpose of this analysis was to determine the temperature statitics for the 
 From the temperature statistics, it can be concluded that the range in the avergae temperature is small showing a healthy sign of a year round businest. The minimum and maximum temperature are also in a good range which allows customers to choose whether they prefer warmer or cooler conditions for optimal surfing. 
 - Another indicator is a precipitation profile, for the high demand months of June and Decmeber, it would good to write queries and determine the amount of rainfall in those months. From those results, we can get a better understanding of the weather conditions in the area. 
 - session.query(Measurement.date, Measurement.prcp).filter(extract('month',Measurement.date)==6).all()
-- session.query(Measurement.date, Measurement.prcp).filter(extract('month',Measurement.date)==12).all()
+- session.query(Measurement.date, Measurement.prcp).filter(extract('month',Measurement.date)==6).all()

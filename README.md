@@ -1,4 +1,4 @@
-# Surfs_Up
+# Surfs Up ETL
 
 ## Overview of the Analysis
 The purpose of this analysis was to determine the temperature statitics for the month of June and December in the region of Oahu, Hawaii in order to predict if purchasing a surf shop is sustainable as a year-round business. 
